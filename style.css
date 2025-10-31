@@ -269,3 +269,8 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* Specific fix for Genially embed */
+.competency-map iframe {
+    height: 600px; /* Ensure the iframe has a fixed minimum height */
+    min-height: 500px;
+}
